@@ -41,7 +41,7 @@ sh run.sh
 ### Hyperparameters
 
 `--dataset:`
-Name of the dataset. Supported names are: cora, citeseer, pubmed, computers, photo 
+Name of the dataset. Supported names are: cora, citeseer, pubmed, computers, photo.  
 usage example :`--dataset computers`
 
 `--label_rate:`
