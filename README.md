@@ -20,4 +20,21 @@ the best of both worlds of semi-supervised and self-supervised methods. Specific
 minimizes the difference between two predicted class distributions that are non-parametrically assigned by anchor-supports similarity from two differently augmented graphs. We experimentally show
 that GraFN surpasses both the semi-supervised and self-supervised methods in terms of node classification on real-world graphs.
 
-<img width="80%" src="Img/Architecture.pdf"></img>
+<img width=70% src="Img/Architecture.png"></img>
+
+## Requirements
+- Python version : 3.9.7
+- Pytorch version : 1.10.1
+- torch-geometric version : 2.0.3
+
+## How to Run
+
+- You can simply run our model with following codes.
+
+```
+git clone https://github.com/LJS-Student/GraFN.git
+cd GraFN
+sh run.sh
+```
+- Or you can reproduce our experiment result with reproduce.ipynb file.
+
