@@ -53,5 +53,5 @@ Temperature for Soft Nearest Neighbors(SNN) Strategy.
 usage example :`--layers 256`
 
 `--thres:`
-Theshold for determining whether a node has confident prediction.
+Theshold for determining whether a node has confident prediction.  
 usage example :`--thres 0.8`
