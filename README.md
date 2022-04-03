@@ -38,3 +38,20 @@ sh run.sh
 ```
 - Or you can reproduce our experiment result with reproduce.ipynb file.
 
+### Hyperparameters
+
+`--dataset:`
+Name of the dataset. Supported names are: cora, citeseer, pubmed, computers, photo 
+usage example :`--dataset computers`
+
+`--label_rate:`
+Percentage of labeled nodes.  
+usage example :`--label_rate 0.15`
+
+`--tau:`
+Temperature for Soft Nearest Neighbors(SNN) Strategy.  
+usage example :`--layers 256`
+
+`--thres:`
+Theshold for determining whether a node has confident prediction.
+usage example :`--thres 0.8`
