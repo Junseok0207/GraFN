@@ -50,8 +50,23 @@ usage example :`--label_rate 0.15`
 
 `--tau:`
 Temperature for Soft Nearest Neighbors(SNN) Strategy.  
-usage example :`--layers 256`
+usage example :`--tau 0.1`
 
 `--thres:`
 Theshold for determining whether a node has confident prediction.  
 usage example :`--thres 0.8`
+
+`--lam:`
+Weight for Node-wise Consistency Regularization loss  
+usage example :`--lam 0.5`
+
+`--lam2:`
+Weight for Label-guided Consistency Regularization loss  
+usage example :`--lam2 0.5`
+
+Using above hyper-parmeters, you can run our model with following codes  
+
+```
+python main.py --embedder GraFN --dataset computers --tau 0.1 --thres 0.8 --lam 0.5 --lam2 0.5
+```
+
