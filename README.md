@@ -70,3 +70,15 @@ Using above hyper-parmeters, you can run our model with following codes
 python main.py --embedder GraFN --dataset computers --tau 0.1 --thres 0.8 --lam 0.5 --lam2 0.5
 ```
 
+### Cite (Bibtex)
+- If you find ``GraFN`` useful in your research, please cite the following paper:
+  - Junseok Lee, Yunhak Oh, Yeonjun In, Namkyeong Lee, Dongmin Hyun, and Chanyoung Park. "GraFN: Semi-Supervised Node Classification on Graph with Few Labels via Non-parametric Distribution Assignment." SIGIR 2022(Short Paper).
+  - Bibtex
+```
+@article{junseok2022GraFN,
+  title={GraFN: Semi-Supervised Node Classification on Graph with Few Labels via Non-parametric Distribution Assignmentg},
+  author={Junseok Lee, Yunhak Oh, Yeonjun In, Namkyeong Lee, Dongmin Hyun, and Chanyoung Park},
+  booktitle={SIGIR},
+  year={2022}
+}
+```
