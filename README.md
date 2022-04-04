@@ -20,4 +20,53 @@ the best of both worlds of semi-supervised and self-supervised methods. Specific
 minimizes the difference between two predicted class distributions that are non-parametrically assigned by anchor-supports similarity from two differently augmented graphs. We experimentally show
 that GraFN surpasses both the semi-supervised and self-supervised methods in terms of node classification on real-world graphs.
 
-<img width="80%" src="Img/Architecture.pdf"></img>
+<img width=70% src="Img/Architecture.png"></img>
+
+## Requirements
+- Python version : 3.9.7
+- Pytorch version : 1.10.1
+- torch-geometric version : 2.0.3
+
+## How to Run
+
+- You can simply run our model with following codes.
+
+```
+git clone https://github.com/LJS-Student/GraFN.git
+cd GraFN
+sh run.sh
+```
+- Or you can reproduce our experiment result with reproduce.ipynb file.
+
+### Hyperparameters
+
+`--dataset:`
+Name of the dataset. Supported names are: cora, citeseer, pubmed, computers, photo.  
+usage example :`--dataset computers`
+
+`--label_rate:`
+Percentage of labeled nodes.  
+usage example :`--label_rate 0.15`
+
+`--tau:`
+Temperature for Soft Nearest Neighbors(SNN) Strategy.  
+usage example :`--tau 0.1`
+
+`--thres:`
+Theshold for determining whether a node has confident prediction.  
+usage example :`--thres 0.8`
+
+`--lam:`
+Weight for Node-wise Consistency Regularization loss  
+usage example :`--lam 0.5`
+
+`--lam2:`
+Weight for Label-guided Consistency Regularization loss  
+usage example :`--lam2 0.5`
+
+Using above hyper-parmeters, you can run our model with following codes  
+
+```
+python main.py --embedder GraFN --dataset computers --tau 0.1 --thres 0.8 --lam 0.5 --lam2 0.5
+```
+
