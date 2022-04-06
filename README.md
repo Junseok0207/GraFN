@@ -1,4 +1,4 @@
-# GraFN: Semi-Supervised Graph Node Classification with Few Labels via Non-Parametric Distribution Assignment
+# GraFN: Semi-Supervised Node Classification on Graph with Few Labels via Non-Parametric Distribution Assignment
 
 <p align="center">
   <img alt="Python" src ="https://img.shields.io/badge/Python-3776AB.svg?&logo=Python&logoColor=white"/>
@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/badge/SIGIR'22-lightgray"/></a>
 
 
-The official source code for "GraFN: Semi-Supervised Graph Node Classification with Few Labels via Non-Parametric Distribution Assignment", accepted at SIGIR 2022(Short Paper).  
+The official source code for "GraFN: Semi-Supervised Node Classification on Graph with Few Labels via Non-Parametric Distribution Assignment", accepted at SIGIR 2022(Short Paper).  
 
 ## Overview
 Despite the success of Graph Neural Networks (GNNs) on various applications, GNNs encounter significant performance degradation when the amount of supervision signals, i.e., number of labeled
@@ -70,3 +70,15 @@ Using above hyper-parmeters, you can run our model with following codes
 python main.py --embedder GraFN --dataset computers --tau 0.1 --thres 0.8 --lam 0.5 --lam2 0.5
 ```
 
+### Cite (Bibtex)
+- If you find ``GraFN`` useful in your research, please cite the following paper:
+  - Junseok Lee, Yunhak Oh, Yeonjun In, Namkyeong Lee, Dongmin Hyun, and Chanyoung Park. "GraFN: Semi-Supervised Node Classification on Graph with Few Labels via Non-parametric Distribution Assignment." SIGIR 2022(Short Paper).
+  - Bibtex
+```
+@article{junseok2022GraFN,
+  title={GraFN: Semi-Supervised Node Classification on Graph with Few Labels via Non-parametric Distribution Assignmentg},
+  author={Junseok Lee, Yunhak Oh, Yeonjun In, Namkyeong Lee, Dongmin Hyun, and Chanyoung Park},
+  booktitle={SIGIR},
+  year={2022}
+}
+```
