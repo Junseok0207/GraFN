@@ -76,7 +76,7 @@ python main.py --embedder GraFN --dataset computers --tau 0.1 --thres 0.8 --lam 
   - Bibtex
 ```
 @article{junseok2022GraFN,
-  title={GraFN: Semi-Supervised Node Classification on Graph with Few Labels via Non-parametric Distribution Assignmentg},
+  title={GraFN: Semi-Supervised Node Classification on Graph with Few Labels via Non-parametric Distribution Assignment},
   author={Junseok Lee, Yunhak Oh, Yeonjun In, Namkyeong Lee, Dongmin Hyun, and Chanyoung Park},
   booktitle={SIGIR},
   year={2022}
