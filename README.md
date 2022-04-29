@@ -73,12 +73,13 @@ python main.py --embedder GraFN --dataset computers --tau 0.1 --thres 0.8 --lam 
 ### Cite (Bibtex)
 - If you find ``GraFN`` useful in your research, please cite the following paper:
   - Junseok Lee, Yunhak Oh, Yeonjun In, Namkyeong Lee, Dongmin Hyun, and Chanyoung Park. "GraFN: Semi-Supervised Node Classification on Graph with Few Labels via Non-parametric Distribution Assignment." SIGIR 2022(Short Paper).
+  - If this work is helpful for your reserarch, you can kindly cite the following paper(will be updated when the SIGIR paper is published)
   - Bibtex
 ```
-@article{junseok2022GraFN,
-  title={GraFN: Semi-Supervised Node Classification on Graph with Few Labels via Non-parametric Distribution Assignment},
-  author={Junseok Lee, Yunhak Oh, Yeonjun In, Namkyeong Lee, Dongmin Hyun, and Chanyoung Park},
-  booktitle={SIGIR},
+@article{lee2022grafn,
+  title={GraFN: Semi-Supervised Node Classification on Graph with Few Labels via Non-Parametric Distribution Assignment},
+  author={Lee, Junseok and Oh, Yunhak and In, Yeonjun and Lee, Namkyeong and Hyun, Dongmin and Park, Chanyoung},
+  journal={arXiv preprint arXiv:2204.01303},
   year={2022}
 }
 ```
