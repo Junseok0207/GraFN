@@ -56,8 +56,6 @@ class embedder:
         if val_acc > self.best_val:
             self.best_val = val_acc
             self.cnt = 0
-            if self.args.save_emb:
-                torch.save(self.model.state_dict(), self.ckpt_path)
         else:
             self.cnt += 1
         
