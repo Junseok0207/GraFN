@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/badge/SIGIR'22-lightgray"/></a>
 
 
-The official source code for "GraFN: Semi-Supervised Node Classification on Graph with Few Labels via Non-Parametric Distribution Assignment", accepted at SIGIR 2022(Short Paper).  
+The official source code for "<a href="https://arxiv.org/abs/2204.01303">GraFN: Semi-Supervised Node Classification on Graph with Few Labels via Non-Parametric Distribution Assignment</a>", accepted at SIGIR 2022(Short Paper).  
 
 ## Overview
 Despite the success of Graph Neural Networks (GNNs) on various applications, GNNs encounter significant performance degradation when the amount of supervision signals, i.e., number of labeled
