@@ -32,7 +32,7 @@ that GraFN surpasses both the semi-supervised and self-supervised methods in ter
 - You can simply run our model with following codes.
 
 ```
-git clone https://github.com/LJS-Student/GraFN.git
+git clone https://github.com/Junseok0207/GraFN.git
 cd GraFN
 sh run.sh
 ```
